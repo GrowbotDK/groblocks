@@ -338,12 +338,14 @@ let fakeTimeString = "0801";
     burstPump(3,100); // External pump 2
     basic.pause(2000);
     
+    /*
     //basic.showString("H");
     setHeat(40);
     basic.pause(2000);
     //setHeat(0,0);
     //setHeat(1,0);
     basic.showString("E");
+    */
   }
 
   /**
@@ -428,6 +430,7 @@ let fakeTimeString = "0801";
   //% block
   //% group="xDebug"
   //% advanced=true
+  /*
 export function heatStairs(){
   let stepCount = [0,0,0] //snapshot time, currTime
   let flag = 0;
@@ -449,7 +452,7 @@ export function heatStairs(){
     flag2 = 1;
   }
   }
-
+*/
 
 
 
