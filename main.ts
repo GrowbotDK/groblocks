@@ -1,11 +1,14 @@
 //Auth
 
+/*
 enum airList {
   //% block="Varmelegeme"
   heater,
   //% block="Indre Blæser"
   fan
 }
+*/
+
 //TEEST GIT TEST GIT
 enum pumpList {
   //% block="Luftudskiftning"
@@ -224,11 +227,14 @@ export function setPump(actu:pumpList, setting: number){
   //% blockId=airActu block="Opvarm til %randNum °C"
   //% group="Aktuatorer"
   //% setting.min=0 setting.max=40
+  /*
   export function setHeat(setting: number){
     let set = setting.toString();
       let output = "h:" + set + "|x";
       serial.writeString(output);
   }
+  */
+  
 
   /**
   * Angiv om den indre blæser skal være tændt eller slukket. Værdien 0 er slukket
@@ -237,11 +243,13 @@ export function setPump(actu:pumpList, setting: number){
   //% blockId=internalFan block="Blæser Sluk/Tænd %randNum"
   //% group="Aktuatorer"
   //% setting.min=0 setting.max=1
+  /*
   export function fan(setting: number){
     let set = setting.toString();
     let output = "i:" + set + "|x";
     serial.writeString(output);
     }
+    */
   //#########################    END ACTUATORS    #########################
 
 
